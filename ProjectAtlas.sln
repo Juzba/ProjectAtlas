@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36616.10 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{0FD9E41C-7ECA-4112-AE2A-862F0DBF2EA3}"
+	ProjectSection(SolutionItems) = preProject
+		docs\structura_projectu.md = docs\structura_projectu.md
+		docs\Structura_slozek.md = docs\Structura_slozek.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{34322614-8962-4FAA-B61B-3A5B542584CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{D9281A75-C589-491D-8638-CA8B90EBBE8E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{D11B2A5F-783C-4092-8402-28F580CB3FDC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docker", "docker", "{06DAE7FC-6C06-4A20-A109-CDCBE56D7221}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectAtlas.Client", "src\ProjectAtlas.Client\ProjectAtlas.Client.csproj", "{26FAEF45-D691-489B-AF0E-AB31F20D8018}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectAtlas.Server", "src\ProjectAtlas.Server\ProjectAtlas.Server.csproj", "{A2EC58D1-7D3D-48D7-B566-6DC48520AB24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectAtlas.Infrastructure", "src\ProjectAtlas.Infrastructure\ProjectAtlas.Infrastructure.csproj", "{B3DD75D0-2A89-4050-8560-15914E3836CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectAtlas.Shared", "src\ProjectAtlas.Shared\ProjectAtlas.Shared.csproj", "{299463D2-FD88-4BF7-9011-89F6BDC23F67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectAtlas.Application", "src\ProjectAtlas.Application\ProjectAtlas.Application.csproj", "{5FE3B718-B4C4-4DCC-BA8B-4C6D9668A8F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectAtlas.Domain", "src\ProjectAtlas.Domain\ProjectAtlas.Domain.csproj", "{452287B1-F9DA-41E7-A90F-CE6364D5CE6A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26FAEF45-D691-489B-AF0E-AB31F20D8018}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26FAEF45-D691-489B-AF0E-AB31F20D8018}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26FAEF45-D691-489B-AF0E-AB31F20D8018}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26FAEF45-D691-489B-AF0E-AB31F20D8018}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2EC58D1-7D3D-48D7-B566-6DC48520AB24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2EC58D1-7D3D-48D7-B566-6DC48520AB24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2EC58D1-7D3D-48D7-B566-6DC48520AB24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2EC58D1-7D3D-48D7-B566-6DC48520AB24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3DD75D0-2A89-4050-8560-15914E3836CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3DD75D0-2A89-4050-8560-15914E3836CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3DD75D0-2A89-4050-8560-15914E3836CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3DD75D0-2A89-4050-8560-15914E3836CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{299463D2-FD88-4BF7-9011-89F6BDC23F67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{299463D2-FD88-4BF7-9011-89F6BDC23F67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{299463D2-FD88-4BF7-9011-89F6BDC23F67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{299463D2-FD88-4BF7-9011-89F6BDC23F67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FE3B718-B4C4-4DCC-BA8B-4C6D9668A8F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FE3B718-B4C4-4DCC-BA8B-4C6D9668A8F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FE3B718-B4C4-4DCC-BA8B-4C6D9668A8F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FE3B718-B4C4-4DCC-BA8B-4C6D9668A8F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{452287B1-F9DA-41E7-A90F-CE6364D5CE6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{452287B1-F9DA-41E7-A90F-CE6364D5CE6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{452287B1-F9DA-41E7-A90F-CE6364D5CE6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{452287B1-F9DA-41E7-A90F-CE6364D5CE6A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{26FAEF45-D691-489B-AF0E-AB31F20D8018} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{A2EC58D1-7D3D-48D7-B566-6DC48520AB24} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{B3DD75D0-2A89-4050-8560-15914E3836CD} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{299463D2-FD88-4BF7-9011-89F6BDC23F67} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{5FE3B718-B4C4-4DCC-BA8B-4C6D9668A8F1} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{452287B1-F9DA-41E7-A90F-CE6364D5CE6A} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E078FD5B-827B-492D-A05F-5B5A9CECFC4D}
+	EndGlobalSection
+EndGlobal
