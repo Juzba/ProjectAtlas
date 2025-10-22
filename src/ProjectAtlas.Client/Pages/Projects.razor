@@ -1,5 +1,57 @@
-﻿<h3>Projects</h3>
+﻿@using ProjectAtlas.Client.Services
+@using ProjectAtlas.Shared.DTOs
+@inject IApiService ApiService;
+
+@page "/projects"
+
+
+
+<PageTitle>Projecty</PageTitle>
+
+<h1>Projecty</h1>
+
+@if (data == null)
+{
+	<h1>Loading</h1>
+	<h2>Chyba: @error</h2>
+}
+else
+{
+	<h1>Data: @data.Text</h1>
+	<h1>Time: @data.SendTime</h1>
+}
+
+
 
 @code {
+
+	private TextDto? data;
+	private string? error;
+
+	protected override async Task OnInitializedAsync()
+	{
+
+		try
+		{
+			var result = await ApiService.GetAsync<TextDto>("api/Projects/Get");
+			if (result is TextDto textDto)
+			{
+				data = textDto;
+			}
+		}
+		catch (Exception ex)
+		{
+			error = ex.Message;
+			// throw;
+		}
+
+
+
+	}
+
+
+
+
+
 
 }
